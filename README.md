@@ -16,7 +16,7 @@ A clean and responsive survey form built using **HTML** and **CSS** as part of t
 This project was created to practice form creation, layout styling, and accessibility while following freeCodeCamp guidelines.
 
 ## 🚀 Live Demo
- [Survey Form]( https://washiy-codes.github.io/Portfolio-Page/)
+ [Survey Form](  https://washiy-codes.github.io/Survey-Form1/)
 
 ## 📸 Preview
 _Add a screenshot if available_
