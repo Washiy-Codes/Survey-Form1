@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SURVEY FORM</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking your time to help us improve the platform
+    </p>
+  </header>
+
+  <main>
+    <form id="survey-form">
+
+      <fieldset>
+        <label for="name">
+          Name
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </label>
+
+        <label for="email">
+          Email
+          <input id="email" type="email" placeholder="Enter your email" required />
+        </label>
+
+        <label for="number">
+          Age (optional)
+          <input id="number" type="number" min="8" max="100" placeholder="Age" />
+        </label>
+
+        <label for="dropdown">
+          Which option best describes your current role?
+          <select id="dropdown">
+            <option value="">Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+
+        <label>
+          <input type="radio" name="opinion" value="definitely" class="inline" checked />
+          Definitely
+        </label>
+
+        <label>
+          <input type="radio" name="opinion" value="maybe" class="inline" />
+          Maybe
+        </label>
+
+        <label>
+          <input type="radio" name="opinion" value="not-sure" class="inline" />
+          Not sure
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What would you like to see improved?</legend>
+
+        <label><input type="checkbox" class="inline" /> Front-end Projects</label>
+        <label><input type="checkbox" class="inline" /> Back-end Projects</label>
+        <label><input type="checkbox" class="inline" /> Challenges</label>
+        <label><input type="checkbox" class="inline" /> Videos</label>
+        <label><input type="checkbox" class="inline" /> Wiki</label>
+        <label><input type="checkbox" class="inline" /> Forum</label>
+      </fieldset>
+
+      <label>
+        Any comments or suggestions?
+        <textarea rows="3" placeholder="Enter your comments here..."></textarea>
+      </label>
+
+      <input type="submit" id="submit" />
+    </form>
+  </main>
+</body>
+</html>
