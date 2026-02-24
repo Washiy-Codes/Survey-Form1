@@ -21,5 +21,3 @@ This project was created to practice form creation, layout styling, and accessib
 ## 📸 Preview
 ![screenshot](https://global.discourse-cdn.com/freecodecamp/optimized/4X/3/2/d/32d3850d9916f873690eda1d2ec929af416fc87d_2_690x317.jpeg)
 
-## 📄 License
-This project is open-source and free to use.
